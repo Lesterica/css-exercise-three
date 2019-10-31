@@ -11,14 +11,13 @@ body {
 .container {
   margin: 0 auto;
   background-color: #DCDCDC;
-  float: left;
-  margin-left: 35%;
-  padding: 3%;
-  width: 31%;
+  width: 420px;
 }
 
 .content {
   line-height: 22px;
+  display: inline-block;
+  width: 90%
 }
 
 h3 {
@@ -32,26 +31,20 @@ h1 {
 }
 
 .arrow-left {
-  position: fixed;
-  width: 447px;
   background-color: black;
   padding: 20px 0 15px 15px;
-  margin-top: -60px;
-  margin-left: -58px;
   font-size: 10px;
 }
 
 nav {
   margin: 0 auto;
-  padding: 15px 0px 15px 15px;
-  position: fixed;
-  width: 420px;
+  position: block;
+  width: 100%;
 }
 
 .location {
   border-bottom: 1px solid #505050;
   padding-bottom: 20px;
-  margin: 0 -2.7em;
   padding-left: 20px;
   padding-top: 20px;
 }
@@ -61,7 +54,7 @@ nav {
 }
 
 .location:first-child {
-  padding-top: 30px;
+
 }
 
 .location:last-child {
@@ -69,8 +62,9 @@ nav {
 }
 
 .arrow {
-  float: right;
-  margin-top: -30px;
+  display: inline-block;
   font-size: 10px;
   padding-right: 15px;
+  position: relative;
+  top: -8px;
 }
